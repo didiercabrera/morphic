@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+app/compositions/test
+compositions/*.mid
+lib
+src
