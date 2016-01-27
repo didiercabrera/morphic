@@ -1,8 +1,6 @@
 import collections
 from itertools import groupby
 
-N = [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5]
-
 """
 
 Segmentation of data by multiple algorithms,features or properties
@@ -53,4 +51,3 @@ def by_axis( C, axis=0 ):
 	keyfunc = lambda x:x[axis]
 	C = sorted(C, key=keyfunc)
 	return [list(j) for i, j in groupby(C,keyfunc)]
-
